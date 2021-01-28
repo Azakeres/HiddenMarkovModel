@@ -22,7 +22,7 @@ library(prob)
 Import/read text file
 
 ```{r}
-dt = read_file('/Users/azakeres/Downloads/610/books/98-0.txt')
+dt = read_file('98-0.txt')
 ```
 
 This function takes the text from the first chapter of "A TALE OF TWO CITIES" book from homework one. I had to limit it to the first chapter because of memory limits, otherwise any cleaned text works with the following functions(need to comment out a line in the "predic" function in order to work with other texts).
